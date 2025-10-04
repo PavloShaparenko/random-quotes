@@ -103,6 +103,11 @@ function init() {
   }
 }
 
-window.addEventListener('load', init);
+// ...existing code...
+const randomQuoteBt = document.getElementById('random-quote-btn');
 
+
+  console.log(randomQuoteBt.checked);
+
+// ...existing code...
 export { quoteFavoriteBtn, removeFavoriteQuote };
